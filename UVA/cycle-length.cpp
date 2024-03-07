@@ -38,7 +38,7 @@ int maxCycleLen(int i, int j){
 int main(){
 
 	int i, j; 
-	while(cin>>i>>j){
+	while(cin>> i>> j){
 		int ans = maxCycleLen(i, j);  
 		cout<< i<< " "<< j<< " "<< ans<< endl; 
 	}
